@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  deploy-ci-cd:
+    image: 0383325403/deploy:latest
+    ports:
+      - "3000:3000"
